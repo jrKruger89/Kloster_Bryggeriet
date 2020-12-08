@@ -104,10 +104,11 @@ main {
     justify-content: center;
 }
 
-.frontpage_title {
+.page_title {
     font-size: 2em;
     color: #996633;
     padding: 20px 0;
+    text-align: center;
     text-shadow: 2px 2px 2px grey;
 }
 
@@ -125,7 +126,49 @@ main {
     text-shadow: 2px 2px 2px grey;
 }
 
+/* I Flasken subpage */
 
+.page_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_content p {
+    text-align: center;
+    color: #996633;
+    font-size: 1.25em;
+}
+
+.section_title {
+    color: #996633;
+}
+
+.ingredient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    margin: 30px 0;
+}
+
+.ingredient img {
+    height: 300px;
+    width: 300px;
+}
+
+.ingredient figcaption {
+    background-color: white;
+    opacity: 1;
+    width: 300px;
+    height: 150px;
+}
+
+.ingredient_name {
+    color: #996633;
+    text-align: center;
+    margin-top: 10px;
+}
 
 /*-------------------- FOOTER --------------------*/
 
