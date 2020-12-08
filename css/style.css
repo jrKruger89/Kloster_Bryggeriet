@@ -1,0 +1,155 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #F8E9CF;
+}
+
+/* Mobile First Styling */
+
+/*---------- Menu BTN animation ----------*/
+
+.nav_icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: auto 0px;
+    position: absolute;
+    top: 1.2rem;
+    right: 10px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #D2BD94;
+    margin: 4px 0;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px grey;
+}
+
+/* Rotate first bar */
+.open .bar1 {
+    transform: rotate(-45deg) translate(-6px, 4px);
+}
+
+/* Fade out the second bar */
+.open .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.open .bar3 {
+    transform: rotate(45deg) translate(-6px, -4px);
+}
+
+/*-------------------- HEADER --------------------*/
+
+header {
+    background-color: beige;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo img {
+    padding: 12.5px 10px;
+}
+
+.navigation_list {
+    list-style: none;
+    position: absolute;
+    top: 65px;
+    width: 100vw;
+    background-color: #D2BD94;
+    display: none;
+    z-index: 2;
+}
+
+.navigation_item {
+    text-align: left;
+    padding: 1.12em 1.25em;
+    border: 1px solid beige;
+}
+
+a {
+    text-decoration: none;
+    color: #996633;
+    font-size: 1.4em;
+}
+
+/*-------------------- MAIN --------------------*/
+
+main {
+    padding-top: 10vh;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontpage_title {
+    font-size: 2em;
+    color: #996633;
+    padding: 20px 0;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.foreground_image {
+    position: absolute;
+    top: 20vh;
+}
+
+.slogan {
+    color: #996633;
+    padding: 150px 0px 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #D2BD94;
+    text-shadow: 2px 2px 2px grey;
+}
+
+
+
+/*-------------------- FOOTER --------------------*/
+
+footer {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100%;
+}
+
+.so_me_section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.instagram img {
+    height: 40px;
+    width: 40px;
+}
+
+.contact_section {
+    align-items: center;
+    margin: 5px 0 10px 10px;
+}
