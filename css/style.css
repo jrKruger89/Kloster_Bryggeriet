@@ -73,7 +73,7 @@ header {
     list-style: none;
     position: absolute;
     top: 65px;
-    width: 100vw;
+    width: 100%;
     background-color: #D2BD94;
     display: none;
     z-index: 2;
@@ -392,6 +392,7 @@ footer {
 
     header {
         display: flex;
+        justify-content: center;
     }
 
     .nav_icon {
