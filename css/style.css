@@ -401,7 +401,6 @@ footer {
 
     .navigation_list {
         display: flex;
-        justify-content: center;
         position: static;
         background-color: beige;
     }
