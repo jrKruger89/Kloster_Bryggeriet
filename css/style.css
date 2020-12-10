@@ -274,7 +274,8 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 10px 10px;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .instagram img {
@@ -286,7 +287,6 @@ footer {
     align-items: center;
     margin: auto 10px;
 }
-
 
 /* Tablet styling */
 
