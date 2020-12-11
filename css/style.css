@@ -265,7 +265,7 @@ footer {
     background-color: beige;
     display: flex;
     justify-content: space-between;
-    height: 20vh;
+    height: 185px;
     width: 100%;
     bottom: 0;
 }
