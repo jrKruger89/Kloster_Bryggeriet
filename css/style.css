@@ -459,10 +459,21 @@ footer {
         justify-content: center;
     }
 
+    .label_caption {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        padding: 5px;
+    }
+
     .beer_label {
         height: 550px;
         width: 400px;
         margin: auto;
+    }
+
+    .section_text {
+        width: 60%;
     }
 
 }
